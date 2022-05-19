@@ -41,21 +41,26 @@ header > div > nav{width: 1200px; height: 35px; margin: 0 auto; display: flex; j
 #New_Products{width: 1200px; height: 750px; margin: 0 auto; border-bottom: 3px solid rgb(214, 214, 214);}
 #New_Products > p{font-size: 25px; text-align: center; height: 30px; padding-top: 110px; padding-bottom: 20px;}
 
+#New_Products_img1:hover{animation: product_hover 0.3s forwards;}
+@keyframes product_hover {
+    0%{background-size: 100%;}
+    100%{background-size: 108%;}
+}
+
 #New_Products_1{width: 379.828px; height: 515.281px; display: flex; flex-wrap: wrap;}
-#New_Products_img1{width: 379.828px; height: 379.828px;
-    background-image: url(../img/New_products/New\ Products_1.jpg); background-repeat: no-repeat;}
+#New_Products_img1{width: 379.828px; height: 379.828px;background-image: url(../img/New_products/New\ Products_1.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;}
 #New_Products_text1{text-align: center; margin: 0 auto; font-size: 14px; margin-top: 5px;}
 
 
 #New_Products_2{width: 379.828px; height: 515.281px; display: flex; flex-wrap: wrap;}
-#New_Products_img2{width: 379.828px; height: 379.828px;
-    background-image: url(../img/New_products/New\ Products_2.jpg); background-repeat: no-repeat;}
+#New_Products_img2{width: 379.828px; height: 379.828px; background-image: url(../img/New_products/New\ Products_2.jpg);
+    background-repeat: no-repeat;background-size: cover; background-position: center center;}
 #New_Products_text2{text-align: center; margin: 0 auto; font-size: 14px; margin-top: 5px;}
 
 
 #New_Products_3{width: 379.828px; height: 515.281px; display: flex; flex-wrap: wrap;}
-#New_Products_img3{width: 379.828px; height: 379.828px;
-    background-image: url(../img/New_products/New\ Products_3.jpg); background-repeat: no-repeat;}
+#New_Products_img3{width: 379.828px; height: 379.828px; background-image: url(../img/New_products/New\ Products_3.jpg);
+    background-repeat:no-repeat; background-position: center center; background-size: cover;}
 #New_Products_text3{text-align: center; margin: 0 auto; font-size: 14px; margin-top: 5px;}
 
 
@@ -152,3 +157,4 @@ footer > div{border-bottom: 1px solid rgb(211, 211, 211);}
 .footer_var2_text {font-size: 14px; line-height: 13px; color: rgb(97, 97, 97);}
 #footer_var2_s{font-size: 13px; line-height: 13px; color: rgb(97, 97, 97);}
 #footer_var2_text2{padding-top: 25px;}
+
