@@ -41,27 +41,24 @@ header > div > nav{width: 1200px; height: 35px; margin: 0 auto; display: flex; j
 #New_Products{width: 1200px; height: 750px; margin: 0 auto; border-bottom: 3px solid rgb(214, 214, 214);}
 #New_Products > p{font-size: 25px; text-align: center; height: 30px; padding-top: 110px; padding-bottom: 20px;}
 
-#New_Products_img1:hover{animation: product_hover 0.3s forwards;}
-@keyframes product_hover {
-    0%{background-size: 100%;}
-    100%{background-size: 108%;}
-}
+
 
 #New_Products_1{width: 379.828px; height: 515.281px; display: flex; flex-wrap: wrap;}
-#New_Products_img1{width: 379.828px; height: 379.828px;background-image: url(../img/New_products/New\ Products_1.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;}
+#New_Products_img1{width: 379.828px; height: 379.828px; background-image: url(../img/New_products/New\ Products_1.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center; transition: all 0.4s; background-size: 100%;}
 #New_Products_text1{text-align: center; margin: 0 auto; font-size: 14px; margin-top: 5px;}
+#New_Products_img1:hover{background-size: 109%;}
 
 
 #New_Products_2{width: 379.828px; height: 515.281px; display: flex; flex-wrap: wrap;}
-#New_Products_img2{width: 379.828px; height: 379.828px; background-image: url(../img/New_products/New\ Products_2.jpg);
-    background-repeat: no-repeat;background-size: cover; background-position: center center;}
+#New_Products_img2{width: 379.828px; height: 379.828px; background-image: url(../img/New_products/New\ Products_2.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center; transition: all 0.4s; background-size: 100%;}
 #New_Products_text2{text-align: center; margin: 0 auto; font-size: 14px; margin-top: 5px;}
+#New_Products_img2:hover{background-size: 109%;}
 
 
 #New_Products_3{width: 379.828px; height: 515.281px; display: flex; flex-wrap: wrap;}
-#New_Products_img3{width: 379.828px; height: 379.828px; background-image: url(../img/New_products/New\ Products_3.jpg);
-    background-repeat:no-repeat; background-position: center center; background-size: cover;}
+#New_Products_img3{width: 379.828px; height: 379.828px; background-image: url(../img/New_products/New\ Products_3.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center; transition: all 0.4s; background-size: 100%;}
 #New_Products_text3{text-align: center; margin: 0 auto; font-size: 14px; margin-top: 5px;}
+#New_Products_img3:hover{background-size: 109%;}
 
 
 /* Best_Products */
@@ -70,30 +67,39 @@ header > div > nav{width: 1200px; height: 35px; margin: 0 auto; display: flex; j
 #Best_Products > p{font-size: 25px; text-align: center; height: 30px; padding-top: 70px; padding-bottom: 20px;}
 
 #Best_Products_1{width: 224px; height: 224px; display: flex; flex-wrap: wrap;
-    background-image: url(../img/Best_Products/Best\ Troducts_1.png); background-repeat: no-repeat; background-size: contain; display: flex; flex-wrap: wrap; justify-content: center;}
-    #Best_Products_1 > p{text-align: center; font-size: 13px; height: 15px; color: #fff;}
-    #Best_Products_1 > p:nth-child(1){text-align: center; font-size: 13px; height: 15px; line-height: 200px;}
+    background-image: url(../img/Best_Products/Best\ Troducts_1.png); background-repeat: no-repeat; background-size: cover; background-position: center center; transition: all 0.4s; background-size: 100%;}
+#Best_Products_1 > div{text-align: center; font-size: 13px; width: 224px; height: 224px; color: #fff; opacity: 0; transition: all 0.3s;}
+#Best_Products_1 > div > p{text-align: center; font-size: 13px; height: 15px; line-height: 180px;}
+#Best_Products_1 > div:hover{opacity: 1; background-color: rgba(000, 000, 000, 0.4);}
+#Best_Products_1:hover{background-size: 108%;}
 
-    #Best_Products_2{width: 224px; height: 224px; display: flex; flex-wrap: wrap;
-        background-image: url(../img/Best_Products/Best\ Troducts_2.jpg); background-repeat: no-repeat; background-size: contain; display: flex; flex-wrap: wrap; justify-content: center;}
-    #Best_Products_2 > p{text-align: center; font-size: 13px; height: 15px; padding-left: 30px; padding-right: 30px; color: #fff;}
-    #Best_Products_2 > p:nth-child(1){text-align: center; font-size: 13px; height: 15px; line-height: 200px;}
+#Best_Products_2{width: 224px; height: 224px; display: flex; flex-wrap: wrap;
+        background-image: url(../img/Best_Products/Best\ Troducts_2.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center; transition: all 0.4s; background-size: 100%;}
+#Best_Products_2 > div{text-align: center; font-size: 13px; width: 224px; height: 224px; color: #fff; opacity: 0; transition: all 0.3s;}
+#Best_Products_2 > div > p{text-align: center; font-size: 13px; height: 15px; line-height: 180px;}
+#Best_Products_2 > div:hover{opacity: 1; background-color: rgba(000, 000, 000, 0.4);}
+#Best_Products_2:hover{background-size: 108%;}
 
 #Best_Products_3{width: 224px; height: 224px; display: flex; flex-wrap: wrap;
-    background-image: url(../img/Best_Products/Best\ Troducts_3.jpg); background-repeat: no-repeat; background-size: contain; display: flex; flex-wrap: wrap; justify-content: center;}
-#Best_Products_3 > p{text-align: center; font-size: 13px; height: 15px; color: #fff; padding-left: 30px; padding-right: 30px;}
-#Best_Products_3 > p:nth-child(1){text-align: center; font-size: 13px; height: 15px; line-height: 180px;}
+    background-image: url(../img/Best_Products/Best\ Troducts_3.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center; transition: all 0.4s; background-size: 100%;}
+#Best_Products_3 > div{text-align: center; font-size: 13px; width: 224px; height: 224px; color: #fff; opacity: 0; transition: all 0.3s;}
+#Best_Products_3 > div > p{text-align: center; font-size: 13px; height: 15px; line-height: 180px;}
+#Best_Products_3 > div:hover{opacity: 1; background-color: rgba(000, 000, 000, 0.4);}
+#Best_Products_3:hover{background-size: 108%;}
 
 #Best_Products_4{width: 224px; height: 224px; display: flex; flex-wrap: wrap;
-    background-image: url(../img/Best_Products/Best\ Troducts_4.jpg); background-repeat: no-repeat; background-size: contain; display: flex; flex-wrap: wrap; justify-content: center;}
-#Best_Products_4 > p{text-align: center; font-size: 13px; height: 15px; color: #fff;}
-#Best_Products_4 > p:nth-child(1){text-align: center; font-size: 13px; height: 15px; line-height: 180px;}
-#Best_Products_4 > small{margin: 0 auto; font-size: 13px; height: 15px; color: #fff;}
+    background-image: url(../img/Best_Products/Best\ Troducts_4.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center; transition: all 0.4s; background-size: 100%;}
+#Best_Products_4 > div{text-align: center; font-size: 13px; width: 224px; height: 224px; color: #fff; opacity: 0; transition: all 0.3s;}
+#Best_Products_4 > div > p{text-align: center; font-size: 13px; height: 15px; line-height: 180px;}
+#Best_Products_4 > div:hover{opacity: 1; background-color: rgba(000, 000, 000, 0.4);}
+#Best_Products_4:hover{background-size: 108%;}
 
 #Best_Products_5{width: 224px; height: 224px; display: flex; flex-wrap: wrap;
-    background-image: url(../img/Best_Products/Best\ Troducts_5.jpg); background-repeat: no-repeat; background-size: contain; display: flex; flex-wrap: wrap; justify-content: center;}
-#Best_Products_5 > p{text-align: center; font-size: 13px; height: 15px; color: #fff;}
-#Best_Products_5 > p:nth-child(1){text-align: center; font-size: 13px; height: 15px; line-height: 180px;}
+    background-image: url(../img/Best_Products/Best\ Troducts_5.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center; transition: all 0.4s; background-size: 100%;}
+#Best_Products_5 > div{text-align: center; font-size: 13px; width: 224px; height: 224px; color: #fff; opacity: 0; transition: all 0.3s;}
+#Best_Products_5 > div > p{text-align: center; font-size: 13px; height: 15px; line-height: 180px;}
+#Best_Products_5 > div:hover{opacity: 1; background-color: rgba(000, 000, 000, 0.4);}
+#Best_Products_5:hover{background-size: 108%;}
 
 
 /* 서브 배너 이미지 */
@@ -107,25 +113,32 @@ header > div > nav{width: 1200px; height: 35px; margin: 0 auto; display: flex; j
 #MDs_PICK > p{font-size: 25px; text-align: center; height: 30px; padding-top: 120px; padding-bottom: 20px;}
 
 #MDs_PICK_1{width: 282px; height: 282px; display: flex; flex-wrap: wrap;
-    background-image: url(../img/MDsPick/MDsPick_1.jpg); background-repeat: no-repeat; background-size: contain; display: flex; flex-wrap: wrap; justify-content: center;}
-#MDs_PICK_1 > p{text-align: center; font-size: 13px; height: 15px; padding-left: 30px; padding-right: 30px; color: #fff;}
-#MDs_PICK_1 > p:nth-child(1){text-align: center; font-size: 13px; height: 15px; line-height: 200px;}
+    background-image: url(../img/MDsPick/MDsPick_1.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center; transition: all 0.4s; background-size: 100%;}
+#MDs_PICK_1 > div{text-align: center; font-size: 13px; width: 282px; height: 282px; color: #fff; opacity: 0; transition: all 0.3s;}
+#MDs_PICK_1 > div > p{text-align: center; font-size: 13px; height: 15px; line-height: 230px;}
+#MDs_PICK_1 > div:hover{opacity: 1; background-color: rgba(000, 000, 000, 0.5);}
+#MDs_PICK_1:hover{background-size: 108%;}
 
-    #MDs_PICK_2{width: 282px; height: 282px; display: flex; flex-wrap: wrap;
-        background-image: url(../img/MDsPick/MDsPick_2.jpg); background-repeat: no-repeat; background-size: contain; display: flex; flex-wrap: wrap; justify-content: center;}
-    #MDs_PICK_2 > p{text-align: center; font-size: 13px; height: 15px; padding-left: 30px; padding-right: 30px; color: #fff;}
-    #MDs_PICK_2 > p:nth-child(1){text-align: center; font-size: 13px; height: 15px; line-height: 200px;}
+#MDs_PICK_2{width: 282px; height: 282px; display: flex; flex-wrap: wrap;
+    background-image: url(../img/MDsPick/MDsPick_2.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center; transition: all 0.4s; background-size: 100%;}
+#MDs_PICK_2 > div{text-align: center; font-size: 13px; width: 282px; height: 282px; color: #fff; opacity: 0; transition: all 0.3s;}
+#MDs_PICK_2 > div > p{text-align: center; font-size: 13px; height: 15px; line-height: 230px;}
+#MDs_PICK_2 > div:hover{opacity: 1; background-color: rgba(000, 000, 000, 0.5);}
+#MDs_PICK_2:hover{background-size: 108%;}
 
 #MDs_PICK_3{width: 282px; height: 282px; display: flex; flex-wrap: wrap;
-    background-image: url(../img/MDsPick/MDsPick_3.jpg); background-repeat: no-repeat; background-size: contain; display: flex; flex-wrap: wrap; justify-content: center;}
-#MDs_PICK_3 > p{text-align: center; font-size: 13px; height: 15px; color: #fff; padding-left: 30px; padding-right: 30px;}
-#MDs_PICK_3 > p:nth-child(1){text-align: center; font-size: 13px; height: 15px; line-height: 180px;}
+    background-image: url(../img/MDsPick/MDsPick_3.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center; transition: all 0.4s; background-size: 100%;}
+#MDs_PICK_3 > div{text-align: center; font-size: 13px; width: 282px; height: 282px; color: #fff; opacity: 0; transition: all 0.3s;}
+#MDs_PICK_3 > div > p{text-align: center; font-size: 13px; height: 15px; line-height: 230px;}
+#MDs_PICK_3 > div:hover{opacity: 1; background-color: rgba(000, 000, 000, 0.5);}
+#MDs_PICK_3:hover{background-size: 108%;}
 
 #MDs_PICK_4{width: 282px; height: 282px; display: flex; flex-wrap: wrap;
-    background-image: url(../img/MDsPick/MDsPick_4.jpg); background-repeat: no-repeat; background-size: contain; display: flex; flex-wrap: wrap; justify-content: center;}
-#MDs_PICK_4 > p{text-align: center; font-size: 13px; height: 15px; color: #fff;}
-#MDs_PICK_4 > p:nth-child(1){text-align: center; font-size: 13px; height: 15px; line-height: 180px;}
-#MDs_PICK_4 > small{margin: 0 auto; font-size: 13px; height: 15px; color: #fff;}
+    background-image: url(../img/MDsPick/MDsPick_4.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center; transition: all 0.4s; background-size: 100%;}
+#MDs_PICK_4 > div{text-align: center; font-size: 13px; width: 282px; height: 282px; color: #fff; opacity: 0; transition: all 0.3s;}
+#MDs_PICK_4 > div > p{text-align: center; font-size: 13px; height: 15px; line-height: 230px;}
+#MDs_PICK_4 > div:hover{opacity: 1; background-color: rgba(000, 000, 000, 0.5);}
+#MDs_PICK_4:hover{background-size: 108%;}
 
 
 /* STEADY_SELLERS */
@@ -134,11 +147,17 @@ header > div > nav{width: 1200px; height: 35px; margin: 0 auto; display: flex; j
 #STEADY_SELLERS > div{display: flex; flex-wrap: wrap; justify-content: space-between;}
 #STEADY_SELLERS > div p{text-align: center; font-size: 14px;}
 
-#STEADY_SELLERS_1{width: 224px; height: 224px; background-image: url(../img/Steady_Sellers/Steady_Sellers_1.jpg); background-repeat: no-repeat; background-size: contain;}
-#STEADY_SELLERS_2{width: 224px; height: 224px; background-image: url(../img/Steady_Sellers/Steady_Sellers_2.jpg); background-repeat: no-repeat; background-size: contain;}
-#STEADY_SELLERS_3{width: 224px; height: 224px; background-image: url(../img/Steady_Sellers/Steady_Sellers_3.jpg); background-repeat: no-repeat; background-size: contain;}
-#STEADY_SELLERS_4{width: 224px; height: 224px; background-image: url(../img/Steady_Sellers/Steady_Sellers_4.jpg); background-repeat: no-repeat; background-size: contain;}
-#STEADY_SELLERS_5{width: 224px; height: 224px; background-image: url(../img/Steady_Sellers/Steady_Sellers_5.jpg); background-repeat: no-repeat; background-size: contain;}
+#STEADY_SELLERS_1{width: 224px; height: 224px; background-image: url(../img/Steady_Sellers/Steady_Sellers_1.jpg); background-size: contain; transition: all 0.3s; background-size: cover; background-position: center center; background-size: 100%;}
+#STEADY_SELLERS_1:hover{background-size: 108%;}
+#STEADY_SELLERS_2{width: 224px; height: 224px; background-image: url(../img/Steady_Sellers/Steady_Sellers_2.jpg); background-size: contain; transition: all 0.3s; background-size: cover; background-position: center center; background-size: 100%;}
+#STEADY_SELLERS_2:hover{background-size: 108%;}
+#STEADY_SELLERS_3{width: 224px; height: 224px; background-image: url(../img/Steady_Sellers/Steady_Sellers_3.jpg); background-size: contain; transition: all 0.3s; background-size: cover; background-position: center center; background-size: 100%;;}
+#STEADY_SELLERS_3:hover{background-size: 108%;}
+#STEADY_SELLERS_4{width: 224px; height: 224px; background-image: url(../img/Steady_Sellers/Steady_Sellers_4.jpg); background-size: contain; transition: all 0.3s; background-size: cover; background-position: center center; background-size: 100%;}
+#STEADY_SELLERS_4:hover{background-size: 108%;}
+#STEADY_SELLERS_5{width: 224px; height: 224px; background-image: url(../img/Steady_Sellers/Steady_Sellers_5.jpg); background-size: contain; transition: all 0.3s; background-size: cover; background-position: center center; background-size: 100%;}
+#STEADY_SELLERS_5:hover{background-size: 108%;}
+
 
 
 /* footer */
